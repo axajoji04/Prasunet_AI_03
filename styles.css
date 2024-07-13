@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0c0c0c;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.nav button {
+    background-color: #1dbf73;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hero {
+    position: relative;
+    height: 100vh;
+    background: url('images/image.png') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    color: white;
+    text-align: left;
+    padding: 0 20px;
+}
+
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.search-bar {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.search-bar input {
+    width: 75%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.search-bar button {
+    padding: 10px;
+    background-color: #1dbf73;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    color: white;
+    cursor: pointer;
+}
+
+.popular-tags {
+    display: flex;
+    gap: 10px;
+}
+
+.popular-tags button {
+    background-color: #333;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.chatbot-container {
+    position: absolute;
+    bottom: 100px;
+    right: 10px;
+    border-radius: 10px;
+    border: none;
+}
